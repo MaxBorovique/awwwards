@@ -75,7 +75,6 @@ const Story = () => {
           </div>
         </div>
 
-      </div>
         <div className="flex justify-center w-full -mt-80 md:-mt-64 md:me-44 md:justify-end">
           <div className="flex flex-col items-center h-full w-fit md:items-start">
           <p className="max-w-sm mt-3 text-center font-circular-web text-violet-50 md:text-start">
@@ -84,6 +83,7 @@ const Story = () => {
             <Button id='realm-btn' title='discover prologue' containerClass='mt-5' />
           </div>
         </div>
+      </div>
     </section>
   );
 };
