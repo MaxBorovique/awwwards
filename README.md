@@ -1,30 +1,27 @@
+# Awards Project 🏆
+
 ![Awards Project Preview](https://drive.google.com/uc?id=14fqNjV7LgaN4AOi3fdC915WPAPJVZ-8c)
-**Awards** is a web application built following the [YouTube tutorial](https://www.youtube.com/watch?v=zA9r5zTllx4&t=7300s) by _JavaScript Mastery_. This project demonstrates modern front-end development techniques, including animation with **GSAP** and modular styling with **TailwindCSS**.
----
 
-## Demo
+A modern web application built following JavaScript Mastery's [YouTube tutorial](https://www.youtube.com/watch?v=zA9r5zTllx4&t=7300s). This project showcases contemporary front-end development practices, featuring GSAP animations and TailwindCSS styling.
 
-Check out the live demo here: [Awards Project on Vercel](https://awwwards-kohl.vercel.app/)
+## 🚀 Live Demo
 
-## Features
+Experience the live application here: [Awards Project on Vercel](https://awwwards-kohl.vercel.app/)
 
-- Developed with **React** and powered by **Vite** for rapid development.
-- Smooth animations and transitions with **GSAP** and `@gsap/react`.
-- Clean and modular architecture using **TailwindCSS**.
-- Linting and code quality checks with **ESLint**.
+## ✨ Features
 
----
+- ⚛️ Built with **React** and powered by **Vite**
+- 🎨 Fluid animations using **GSAP** and `@gsap/react`
+- 🎯 Modular styling with **TailwindCSS**
+- 🔍 Code quality maintained with **ESLint**
 
-## Getting Started
-
-Follow these instructions to set up and run the project locally.
+## 🛠️ Getting Started
 
 ### Prerequisites
 
-Make sure you have the following installed:
-
-- [Node.js](https://nodejs.org/) (v16 or higher recommended)
-- npm (comes with Node.js) or [Yarn](https://yarnpkg.com/)
+Ensure you have installed:
+- [Node.js](https://nodejs.org/) (v16+ recommended)
+- npm (included with Node.js) or [Yarn](https://yarnpkg.com/)
 
 ### Installation
 
@@ -32,68 +29,86 @@ Make sure you have the following installed:
    ```bash
    git clone <repository-url>
    cd awards
-Install dependencies:
-npm install
-Development
-To start the development server:
+   ```
 
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
+### Development
+
+Start the development server:
+```bash
 npm run dev
-Access the app at http://localhost:3000 in your browser.
+```
+Visit `http://localhost:3000` in your browser.
 
-Production Build
-To build the application for production:
+### Production
 
-
-Копіювати код
+Build for production:
+```bash
 npm run build
-Preview the production build locally:
+```
 
-
+Preview production build:
+```bash
 npm run preview
-Project Structure
-The project has the following structure:
+```
 
+## 📁 Project Structure
 
+```
 awards/
 ├── src/
-│   ├── components/    # Reusable React components
-│   ├── assets/        # Static assets (images, fonts, etc.)
-│   ├── styles/        # Global and component-specific styles
-│   └── App.jsx        # Main application entry point
-├── public/            # Static files served by the app
-├── package.json       # Project metadata and dependencies
+│   ├── components/    # React components
+│   ├── assets/        # Static assets
+│   ├── styles/        # Global styles
+│   └── App.jsx        # Main entry point
+├── public/            # Static files
+├── package.json       # Project metadata
 └── vite.config.js     # Vite configuration
-Dependencies
-Core
-React: ^18.3.1
-GSAP: ^3.12.5 and @gsap/react
-TailwindCSS: ^3.4.17
-clsx: ^2.1.1 for conditional classnames.
-react-icons: ^5.4.0 for lightweight icons.
-Development
-Vite: ^6.0.5 for fast build tooling.
-ESLint: ^9.17.0 for code linting and styling consistency.
-PostCSS: ^8.4.49 for CSS processing.
-Scripts
-The following scripts are available:
+```
 
-npm run dev - Start the development server.
-npm run build - Create a production-ready build.
-npm run preview - Serve the production build locally.
-npm run lint - Run ESLint to check for code issues.
-Credits
-This project is based on the YouTube tutorial:
-Build a Stunning Awards Page Animation | React + GSAP.
+## 📦 Dependencies
 
-Special thanks to the tutorial creator for the detailed guidance.
+### Core
+- **React**: ^18.3.1
+- **GSAP**: ^3.12.5
+- **@gsap/react**: Latest
+- **TailwindCSS**: ^3.4.17
+- **clsx**: ^2.1.1
+- **react-icons**: ^5.4.0
 
-License
-This project is private and not intended for public use. Refer to the tutorial for educational purposes.
+### Development
+- **Vite**: ^6.0.5
+- **ESLint**: ^9.17.0
+- **PostCSS**: ^8.4.49
 
-Acknowledgements
-Special thanks to **[Zentry](https://zentry.com/)** for providing inspiration for creating a visually stunning and highly functional website. Their innovative design and attention to detail served as a great reference for this project.
-Vite for the fast development environment.
-React for the robust front-end framework.
-GSAP for the powerful animation library.
-TailwindCSS for utility-first CSS.
+## 📜 Available Scripts
+
+- `npm run dev` - Launch development server
+- `npm run build` - Create production build
+- `npm run preview` - Preview production build
+- `npm run lint` - Run ESLint checks
+
+## 🎓 Credits
+
+Based on the tutorial:
+*"Build a Stunning Awards Page Animation | React + GSAP"*
+
+## 📄 License
+
+This project is private and not intended for public distribution. Please refer to the tutorial for educational purposes.
+
+## 🙏 Acknowledgements
+
+- [Zentry](https://zentry.com/) for design inspiration
+- **Vite** - Fast development environment
+- **React** - Robust front-end framework
+- **GSAP** - Powerful animation library
+- **TailwindCSS** - Utility-first CSS framework
+
+---
+
+*Built with ❤️ following JavaScript Mastery's tutorial*
